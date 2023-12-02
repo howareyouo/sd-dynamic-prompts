@@ -137,7 +137,7 @@ class Script(scripts.Script):
             with gr.Accordion(title, open=False):
                 is_enabled = gr.Checkbox(
                     label="Dynamic Prompts enabled",
-                    value=correct_lib_version,
+                    value=False,
                     interactive=correct_lib_version,
                     elem_id=make_element_id("dynamic-prompts-enabled"),
                 )

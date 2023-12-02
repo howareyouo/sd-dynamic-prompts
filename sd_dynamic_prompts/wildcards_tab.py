@@ -89,15 +89,14 @@ def on_ui_tabs():
                     label="",
                 )
                 gr.HTML("Loading...", elem_id=make_element_id("wildcard-tree"))
-                with gr.Accordion("Help", open=False):
-                    gr.HTML(help_html)
                 with gr.Accordion("Collection actions", open=False):
-                    collection_dropdown = gr.Dropdown(
-                        choices=sorted(get_collection_dirs()),
-                        type="value",
-                        label="Select a collection",
-                    )
                     with gr.Row():
+                        collection_dropdown = gr.Dropdown(
+                            choices=sorted(get_collection_dirs()),
+                            show_label=False,
+                            label="Select a collection",
+                            type="value",
+                        )
                         collection_copy_button = gr.Button(
                             "Copy collection",
                             full_width=True,
@@ -115,6 +114,8 @@ def on_ui_tabs():
                             "Delete all wildcards",
                             elem_id=make_element_id("wildcard-delete-tree-button"),
                         )
+                with gr.Accordion("Help", open=False):
+                    gr.HTML(help_html)
             with gr.Column():
                 gr.Textbox(
                     "",
