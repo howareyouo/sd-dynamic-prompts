@@ -148,7 +148,7 @@ class SDDP_UI {
     }
     // eslint-disable-next-line guard-for-in,no-restricted-syntax
     for (const elemId in SDDP_HELP_TEXTS) {
-      const elem = gradioApp().getElementById(elemId);
+      const elem = $id(elemId);
       if (elem) {
         elem.setAttribute("title", SDDP_HELP_TEXTS[elemId]);
       } else {
@@ -159,7 +159,7 @@ class SDDP_UI {
   }
 
   getInboxMessageText() {
-    return gradioApp().querySelector(
+    return $(
       "#sddp-wildcard-s2c-message-textbox textarea",
     )?.value;
   }
@@ -169,17 +169,17 @@ class SDDP_UI {
   }
 
   sendAction(payload) {
-    const outbox = gradioApp().querySelector(
+    const outbox = $(
       "#sddp-wildcard-c2s-message-textbox textarea",
     );
     outbox.value = this.formatPayload(payload);
     // See https://github.com/AUTOMATIC1111/stable-diffusion-webui/commit/38b7186e6e3a4dffc93225308b822f0dae43a47d
     window.updateInput?.(outbox);
-    gradioApp().querySelector("#sddp-wildcard-c2s-action-button").click();
+    $("#sddp-wildcard-c2s-action-button").click();
   }
 
   requestWildcardTree() {
-    gradioApp().querySelector("#sddp-wildcard-load-tree-button")?.click();
+    $("#sddp-wildcard-load-tree-button")?.click();
   }
 
   doReadMessage() {
@@ -209,7 +209,7 @@ class SDDP_UI {
     }
     const filteredContent = this.filterTreeContent(content, filter);
     if (!this.treeView) {
-      const treeDiv = gradioApp().querySelector("#sddp-wildcard-tree");
+      const treeDiv = $("#sddp-wildcard-tree");
       if (treeDiv) {
         treeView = new SDDPTreeView(filteredContent, treeDiv);
         treeView.on("select", this.onSelectNode.bind(this), null);
@@ -231,11 +231,11 @@ class SDDP_UI {
   }
 
   loadFileIntoEditor(message) {
-    const editor = gradioApp().querySelector(
+    const editor = $(
       "#sddp-wildcard-file-editor textarea",
     );
-    const name = gradioApp().querySelector("#sddp-wildcard-file-name textarea");
-    const saveButton = gradioApp().querySelector("#sddp-wildcard-save-button");
+    const name = $("#sddp-wildcard-file-name textarea");
+    const saveButton = $("#sddp-wildcard-save-button");
     const { contents, wrapped_name: wrappedName, can_edit: canEdit } = message;
     editor.value = contents;
     name.value = wrappedName;
@@ -274,7 +274,7 @@ class SDDP_UI {
 
   onSaveFileClick() {
     const json = JSON.parse(this.getInboxMessageText());
-    const contents = gradioApp().querySelector(
+    const contents = $(
       "#sddp-wildcard-file-editor textarea",
     ).value;
     return this.formatPayload({
@@ -314,7 +314,7 @@ window.SDDP = SDDP;
   // Work around a bug in get_uiCurrentTabContent() and nested tabs
   // (can be replaced with get_uiCurrentTabContent() if
   // https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/10863 is merged)
-  const currentVisibleTopLevelTab = gradioApp().querySelector(
+  const currentVisibleTopLevelTab = $(
     '#tabs > .tabitem[id^=tab_]:not([style*="display: none"])',
   );
   if (currentVisibleTopLevelTab?.id === "tab_sddp-wildcard-manager") {
