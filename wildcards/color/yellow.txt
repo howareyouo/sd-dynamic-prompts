@@ -60,3 +60,62 @@ honey yellow
 yellow ochre
 beeswax yellow
 cadmium yellow
+amber color
+apricot color
+aureolin color
+banana color
+beige color
+bisque color
+blond color
+buff color
+butter color
+canary color
+caramel color
+champagne color
+chartreuse color
+citrine color
+cream color
+daffodil color
+dark gold color
+ecru color
+flaxen color
+gamboge color
+gold color
+goldenrod color
+harvest color
+honey color
+ivory color
+jonquil color
+lemon color
+maize color
+marigold color
+mellow yellow color
+mustard color
+Naples yellow color
+Navajo white color
+ochre color
+old gold color
+olive color
+pale gold color
+pastel yellow color
+peach color
+pear color
+primrose color
+saffron color
+sand color
+sandy brown color
+sunglow color
+tangerine color
+taupe color
+topaz color
+tuscan sun color
+vanilla color
+wheat color
+yellow color
+yellow-green color
+yellow-orange color
+yellow rose color
+zest color
+zinnwaldite color
+zinnwaldite brown color
+zomp color

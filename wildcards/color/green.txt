@@ -27,3 +27,94 @@ turquoise green
 pine green
 spring green
 viridian
+avocado
+basil
+bottle green
+celadon
+chartreuse
+cypress
+dark olive
+deep green
+emerald
+fern
+forest green
+grape leaf
+grass green
+green tea
+hunter green
+ivy
+jade
+jungle green
+kelly green
+khaki
+laurel
+leaf green
+lichen
+lime
+military green
+mint
+moss green
+olive
+parakeet
+pea green
+pear
+pine
+pistachio
+sage
+seafoam green
+shamrock
+spring green
+tea green
+thyme
+turtle green
+verdant
+viridian
+willow
+apple green
+bright green
+chive
+citron
+clover
+electric green
+forest
+green apple
+green-yellow
+jade green
+kelly
+kelly green
+kiwi
+leaf
+lemon-lime
+leprechaun
+lichen green
+light green
+lime green
+lime peel
+linden green
+mantis
+military
+moss
+mossy
+neon green
+olive drab
+pale green
+pale olive
+parrot green
+pea
+pea soup
+pea soup green
+pear green
+periwinkle
+pine green
+puce green
+reseda
+sap green
+sea green
+seaweed green
+spring
+spruce
+true green
+verde
+verdigris
+vibrant green
+virid green

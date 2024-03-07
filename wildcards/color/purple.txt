@@ -70,3 +70,81 @@ plum color
 grape color
 eggplant color
 indigo
+amethyst
+mauve
+lavender
+violet
+eggplant
+plum
+lilac
+mulberry
+magenta
+orchid
+grape
+thistle
+periwinkle
+heliotrope
+fuchsia
+mauve taupe
+amethyst smoke
+grape purple
+deep magenta
+bright lavender
+lavender blush
+purple pizzazz
+purple mountain majesty
+vivid violet
+bright ube
+dark orchid
+dark violet
+deep fuchsia
+electric purple
+japanese violet
+medium orchid
+medium purple
+medium violet-red
+pale lavender
+pale magenta
+pale plum
+rich lavender
+spanish violet
+ultra violet
+medium lavender magenta
+bright lavender indigo
+bright ube
+lavender floral
+lavender gray
+lavender blue
+lavender indigo
+lavender magenta
+dark pastel purple
+dark lavender
+dark magenta
+dark purple
+deep lavender
+deep mulberry
+fandango
+light thistle
+pale violet-red
+pink lavender
+purple navy
+purple taupe
+deep violet
+medium violet
+medium purple taupe
+medium purple navy
+pale cerise
+pale pink-purple
+pale lavender blush
+pale purple
+pastel purple
+persian plum
+purple navy
+purple taupe
+reddish purple
+saddle brown
+sangria
+vivid violet
+wisteria
+xanadu purple
+zinnwaldite purple

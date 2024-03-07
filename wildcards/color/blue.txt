@@ -99,3 +99,86 @@ tiffany blue
 slate blue
 electric blue
 sapphire blue
+aqua
+azure
+baby blue
+bice blue
+bondi blue
+cadet blue
+carolina blue
+cerulean
+cobalt blue
+cornflower blue
+denim
+dodger blue
+duke blue
+egyptian blue
+electric blue
+french blue
+glaucous
+indigo
+international klein blue
+iris
+light blue
+lapis
+lavender blue
+liberty
+light steel blue
+mayan blue
+midnight blue
+navy blue
+ocean
+olympic blue
+pale blue
+pastel blue
+peacock blue
+periwinkle
+powder blue
+prussian blue
+royal blue
+sapphire
+sky blue
+steel blue
+teal
+tiffany blue
+turquoise
+ultramarine
+violet-blue
+alice blue
+beau blue
+brandeis blue
+cambridge blue
+carolina blue
+celestial blue
+columbia blue
+cornell blue
+dark powder blue
+deep sky blue
+delft blue
+dodger blue
+duke blue
+electric blue
+federal blue
+gainsboro
+glacier blue
+hollywood cerise
+keppel
+light cyan
+light sky blue
+majorelle blue
+maya blue
+medium aquamarine
+medium blue
+medium slate blue
+munsell
+navy blue
+neon blue
+pale turquoise
+powder blue
+robin egg blue
+steel blue
+tiffany blue
+true blue
+turquoise blue
+violet-blue
+yale blue
