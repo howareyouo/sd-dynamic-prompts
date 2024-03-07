@@ -14,7 +14,7 @@ from dynamicprompts.wildcards.tree import WildcardTreeNode
 from modules import script_callbacks
 from send2trash import send2trash
 
-from sd_dynamic_prompts.element_ids import make_element_id
+from sd_dynamic_prompts.element_ids import elem_id
 
 COPY_COLLECTION_ACTION = "copy collection"
 LOAD_FILE_ACTION = "load file"
@@ -83,107 +83,89 @@ def on_ui_tabs():
     with gr.Blocks() as wildcards_tab:
         with gr.Row():
             with gr.Column():
-                gr.Textbox(
-                    placeholder="Search in wildcard names...",
-                    elem_id=make_element_id("wildcard-search"),
-                    label="",
-                )
-                gr.HTML("Loading...", elem_id=make_element_id("wildcard-tree"))
-                with gr.Accordion("Collection actions", open=False):
-                    with gr.Row():
-                        collection_dropdown = gr.Dropdown(
-                            choices=sorted(get_collection_dirs()),
-                            show_label=False,
-                            label="Select a collection",
-                            type="value",
-                        )
-                        collection_copy_button = gr.Button(
-                            "Copy collection",
-                            scale=1,
-                        )
-                        overwrite_checkbox = gr.Checkbox(
-                            label="Overwrite existing",
-                            value=False,
-                        )
-                    with gr.Row():
-                        refresh_wildcards_button = gr.Button(
-                            "Refresh wildcards",
-                            elem_id=make_element_id("wildcard-load-tree-button"),
-                        )
-                        delete_tree_button = gr.Button(
-                            "Delete all wildcards",
-                            elem_id=make_element_id("wildcard-delete-tree-button"),
-                        )
+                gr.Textbox(label="Search wildcard", placeholder="Wildcard names...", elem_id=elem_id("wildcard-search"))
+                gr.HTML("Loading...", elem_id=elem_id("wildcard-tree"))
+                with gr.Row():
+                    refresh_wildcards_btn = gr.Button("Refresh wildcards", elem_id=elem_id("wildcard-load-tree-button"))
+                    delete_tree_btn = gr.Button("Delete all wildcards")
+                with gr.Row():
+                    collection_dropdown = gr.Dropdown(
+                        choices=sorted(get_collection_dirs()),
+                        show_label=False,
+                        label="Select a collection",
+                        type="value",
+                    )
+                    collection_copy_btn = gr.Button("Copy collection", scale=1,)
+                    overwrite_checkbox = gr.Checkbox(label="Overwrite existing", value=False,)
                 with gr.Accordion("Help", open=False):
                     gr.HTML(help_html)
             with gr.Column():
                 gr.Textbox(
                     "",
-                    elem_id=make_element_id("wildcard-file-name"),
+                    elem_id=elem_id("wildcard-file-name"),
                     interactive=False,
                     label="Wildcards file",
                 )
                 gr.Textbox(
                     "",
-                    elem_id=make_element_id("wildcard-file-editor"),
-                    lines=20,
-                    scale=1,
+                    elem_id=elem_id("wildcard-file-editor"),
+                    lines=45,
                     interactive=True,
                     label="File editor",
                 )
                 save_button = gr.Button(
                     "Save wildcards",
-                    elem_id=make_element_id("wildcard-save-button"),
+                    elem_id=elem_id("wildcard-save-button"),
                 )
 
         # Hidden scratch textboxes and button for communication with JS bits.
-        client_to_server_message_textbox = gr.Textbox(
+        client_to_server_msg_txt = gr.Textbox(
             "",
-            elem_id=make_element_id("wildcard-c2s-message-textbox"),
+            elem_id=elem_id("wildcard-c2s-message-textbox"),
             visible=False,
         )
-        server_to_client_message_textbox = gr.Textbox(
+        server_to_client_msg_txt = gr.Textbox(
             "",
-            elem_id=make_element_id("wildcard-s2c-message-textbox"),
+            elem_id=elem_id("wildcard-s2c-message-textbox"),
             visible=False,
         )
-        client_to_server_message_action_button = gr.Button(
+        client_to_server_msg_action_btn = gr.Button(
             "Action",
-            elem_id=make_element_id("wildcard-c2s-action-button"),
+            elem_id=elem_id("wildcard-c2s-action-button"),
             visible=False,
         )
 
         # Handle the frontend sending a message
-        client_to_server_message_action_button.click(
+        client_to_server_msg_action_btn.click(
             handle_message,
-            inputs=[client_to_server_message_textbox],
-            outputs=[server_to_client_message_textbox],
+            inputs=[client_to_server_msg_txt],
+            outputs=[server_to_client_msg_txt],
         )
 
-        refresh_wildcards_button.click(
+        refresh_wildcards_btn.click(
             refresh_wildcards_callback,
             inputs=[],
-            outputs=[server_to_client_message_textbox],
+            outputs=[server_to_client_msg_txt],
         )
 
-        delete_tree_button.click(
+        delete_tree_btn.click(
             delete_tree_callback,
             _js="SDDP.onDeleteTreeClick",
-            inputs=[client_to_server_message_textbox],
-            outputs=[server_to_client_message_textbox],
+            inputs=[client_to_server_msg_txt],
+            outputs=[server_to_client_msg_txt],
         )
 
         save_button.click(
             save_file_callback,
             _js="SDDP.onSaveFileClick",
-            inputs=[client_to_server_message_textbox],
-            outputs=[server_to_client_message_textbox],
+            inputs=[client_to_server_msg_txt],
+            outputs=[server_to_client_msg_txt],
         )
 
-        collection_copy_button.click(
+        collection_copy_btn.click(
             copy_collection_callback,
             inputs=[overwrite_checkbox, collection_dropdown],
-            outputs=[server_to_client_message_textbox],
+            outputs=[server_to_client_msg_txt],
         )
 
     return ((wildcards_tab, "Wildcards Manager", "sddp-wildcard-manager"),)

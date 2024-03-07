@@ -16,7 +16,7 @@ from modules.processing import fix_seed
 from modules.shared import opts
 
 from sd_dynamic_prompts import __version__, callbacks
-from sd_dynamic_prompts.element_ids import make_element_id
+from sd_dynamic_prompts.element_ids import elem_id
 from sd_dynamic_prompts.generator_builder import GeneratorBuilder
 from sd_dynamic_prompts.helpers import (
     generate_prompts,
@@ -127,7 +127,7 @@ class Script(scripts.Script):
         jinja_html_path = base_dir / "jinja_help.html"
         jinja_help = jinja_html_path.read_text("utf-8")
 
-        with gr.Group(elem_id=make_element_id("dynamic-prompting")):
+        with gr.Group(elem_id=elem_id("dynamic-prompting")):
             title = "Dynamic Prompts"
             if not correct_lib_version:
                 title += " [incorrect installation]"
@@ -136,7 +136,7 @@ class Script(scripts.Script):
                     label="Dynamic Prompts enabled",
                     value=False,
                     interactive=correct_lib_version,
-                    elem_id=make_element_id("dynamic-prompts-enabled"),
+                    elem_id=elem_id("dynamic-prompts-enabled"),
                 )
 
                 if not correct_lib_version:
@@ -149,7 +149,7 @@ class Script(scripts.Script):
                     is_combinatorial = gr.Checkbox(
                         label="Combinatorial generation",
                         value=False,
-                        elem_id=make_element_id("is-combinatorial"),
+                        elem_id=elem_id("is-combinatorial"),
                     )
 
                     max_generations = gr.Slider(
@@ -158,7 +158,7 @@ class Script(scripts.Script):
                         maximum=1000,
                         step=1,
                         value=0,
-                        elem_id=make_element_id("max-generations"),
+                        elem_id=elem_id("max-generations"),
                     )
 
                     combinatorial_batches = gr.Slider(
@@ -167,7 +167,7 @@ class Script(scripts.Script):
                         maximum=10,
                         step=1,
                         value=1,
-                        elem_id=make_element_id("combinatorial-times"),
+                        elem_id=elem_id("combinatorial-times"),
                     )
 
                 with gr.Accordion("Prompt Magic", open=False):
@@ -193,7 +193,7 @@ class Script(scripts.Script):
                         is_magic_prompt = gr.Checkbox(
                             label="Magic prompt",
                             value=False,
-                            elem_id=make_element_id("is-magicprompt"),
+                            elem_id=elem_id("is-magicprompt"),
                             interactive=is_magic_model_available,
                         )
 
@@ -220,14 +220,14 @@ class Script(scripts.Script):
                             value=default_magicprompt_model,
                             multiselect=False,
                             label="Magic prompt model",
-                            elem_id=make_element_id("magic-prompt-model"),
+                            elem_id=elem_id("magic-prompt-model"),
                             interactive=is_magic_model_available,
                         )
 
                         magic_blocklist_regex = gr.Textbox(
                             label="Magic prompt blocklist regex",
                             value="",
-                            elem_id=make_element_id("magic-prompt-blocklist-regex"),
+                            elem_id=elem_id("magic-prompt-blocklist-regex"),
                             placeholder=(
                                 "Regular expression pattern for blocking terms out of the generated prompt. Applied case-insensitively. "
                                 'For instance, to block both "purple" and "interdimensional", you could use the pattern "purple|interdimensional".'
@@ -238,14 +238,14 @@ class Script(scripts.Script):
                     is_feeling_lucky = gr.Checkbox(
                         label="I'm feeling lucky",
                         value=False,
-                        elem_id=make_element_id("is-feelinglucky"),
+                        elem_id=elem_id("is-feelinglucky"),
                     )
 
                     with gr.Group():
                         is_attention_grabber = gr.Checkbox(
                             label="Attention grabber",
                             value=False,
-                            elem_id=make_element_id("is-attention-grabber"),
+                            elem_id=elem_id("is-attention-grabber"),
                         )
 
                         min_attention = gr.Slider(
@@ -267,7 +267,7 @@ class Script(scripts.Script):
                     disable_negative_prompt = gr.Checkbox(
                         label="Don't apply to negative prompts",
                         value=True,
-                        elem_id=make_element_id("disable-negative-prompt"),
+                        elem_id=elem_id("disable-negative-prompt"),
                     )
 
                 with gr.Accordion("Need help?", open=False):
@@ -278,7 +278,7 @@ class Script(scripts.Script):
                         enable_jinja_templates = gr.Checkbox(
                             label="Enable Jinja2 templates",
                             value=False,
-                            elem_id=make_element_id("enable-jinja-templates"),
+                            elem_id=elem_id("enable-jinja-templates"),
                         )
 
                         with gr.Accordion("Help for Jinja2 templates", open=False):
@@ -293,32 +293,32 @@ class Script(scripts.Script):
                         unlink_seed_from_prompt = gr.Checkbox(
                             label="Unlink seed from prompt",
                             value=False,
-                            elem_id=make_element_id("unlink-seed-from-prompt"),
+                            elem_id=elem_id("unlink-seed-from-prompt"),
                         )
 
                         use_fixed_seed = gr.Checkbox(
                             label="Fixed seed",
                             value=False,
-                            elem_id=make_element_id("is-fixed-seed"),
+                            elem_id=elem_id("is-fixed-seed"),
                         )
 
                         gr.Checkbox(
                             label="Write raw prompt to image",
                             value=False,
                             visible=False,  # For some reason, removing this line causes Auto1111 to hang
-                            elem_id=make_element_id("write-raw-template"),
+                            elem_id=elem_id("write-raw-template"),
                         )
 
                         no_image_generation = gr.Checkbox(
                             label="Don't generate images",
                             value=False,
-                            elem_id=make_element_id("no-image-generation"),
+                            elem_id=elem_id("no-image-generation"),
                         )
 
                 gr.Checkbox(
                     label="Write prompts to file",
                     value=False,
-                    elem_id=make_element_id("write-prompts"),
+                    elem_id=elem_id("write-prompts"),
                     visible=False,  # For some reason, removing this line causes Auto1111 to hang
                 )
 
