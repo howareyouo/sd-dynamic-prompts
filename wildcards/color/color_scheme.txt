@@ -1,0 +1,62 @@
+agfacolor
+cathode tube
+cinecolor
+cmyk colors
+cold colors
+colorful
+colorless
+dark hue
+desaturated
+dichromatic
+electic colors
+fujifilm superia
+fujicolor
+instax
+grayscale
+high contrast
+hypersaturated
+infrared
+kinemacolor
+kodachrome
+kodak ektar
+kodak portra
+low contrast
+mono color
+muted colors
+offset print
+one color
+oversaturated
+pastel colors
+polychromatic
+primary colors
+provia
+saturated
+single color
+technicolor
+velvia
+sepia filter
+vivid colors
+warm colors
+autochrome
+ambrotype
+albumen
+calotype
+lomography
+ektachrome
+cinestill
+film washi
+film grain
+monochromatic __color__ filter
+monochrome
+amaro
+vivid colors
+__color__ hue
+__color__ neon hue
+__color__ and __color__ hue
+__color__ and __color__ neon hue
+__color__ color grading
+psychedelic colors
+anaglyph effect
+anaglyph filter
+triadic colors
+complementary colors

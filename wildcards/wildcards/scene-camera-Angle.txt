@@ -1,0 +1,9 @@
+from above
+from below
+from side
+from behind
+pov
+dutch angle
+close-up
+wide shot
+perspective

@@ -1,0 +1,28 @@
+lavender color 
+lilac color 
+mauve color 
+thistle color 
+wisteria color 
+periwinkle color 
+amethyst color 
+heather color 
+heliotrope color 
+mulberry color 
+orchid color 
+lavender blush color 
+pale lilac color 
+pale lavender color 
+pastel purple color 
+pale violet color 
+pale plum color 
+pale orchid color 
+pale heather color 
+pale amethyst color 
+light lavender color 
+light lilac color 
+light purple color 
+light violet color 
+light plum color 
+light orchid color 
+light heather color 
+light amethyst color 

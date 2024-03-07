@@ -1,0 +1,24 @@
+cafeteria
+classroom
+clubroom
+conservatory
+courtroom
+dining room
+dungeon
+prison cell
+fitting room
+gym
+gym storeroom
+infirmary
+kitchen
+laboratory
+library
+office
+cubicle
+pool
+stage
+staff room
+storage room
+armory
+closet
+workshop

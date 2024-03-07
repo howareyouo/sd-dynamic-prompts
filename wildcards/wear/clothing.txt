@@ -1,0 +1,663 @@
+__colors__ ribbon
+{black|white|yellow|purple|lavender} mini skirt
+{white|black} vest
+1920s flapper dress
+1950s poodle skirts
+1960s mod fashion
+1970s disco fashion
+1980s neon clothing
+a-line dress
+a-line dress and ballet flats
+a-line skirt
+a-line skirt and blouse
+abaya
+anorak
+ao dai
+apron
+assless swimsuit
+athletic shorts
+athletic wear
+babydoll dress
+backless dress
+ball gown
+ballet slippers
+ballgown
+band collar shirt
+band shirt
+band uniform
+bathing suit
+bathrobe
+battledress
+beachwear
+beaded top
+bell bottoms
+bell sleeve dress
+bell sleeve top
+bell-bottoms
+belly chain
+bikini
+bikini armor
+black lace dress
+black latex corset
+black leggings and oversized sweater
+black micro bikini
+black turtleneck shirt
+blazer
+blazer and jeans
+blouse
+board shorts
+boatneck top
+bobby socks
+body armor
+body stocking
+bodycon dress
+bodystocking
+bodysuit
+bohemian clothing
+bomber jacket
+bomber jacket with a fur collar
+bondage outfit
+bootcut jeans
+boutonniere
+bow tie
+boyfriend blazer and leggings
+boyfriend blazer and skinny jeans
+boyfriend jeans
+boyfriend jeans and blazer
+boyfriend jeans and t-shirt
+brassiere
+breastless clothes
+bridal corset and bridal gauntlets
+bridal dress and bridal gauntlets
+bridesmaid dress
+bubble dress
+bubble skirt
+budget sarashi
+bunny girl suit
+bunny suit
+burlesque corset
+business dress
+business suit
+bustier top
+button badge
+button-down shirt
+byzantine armor
+byzantine dress
+byzantine silk
+cable knit sweater
+cami top
+camisole
+cap and gown
+capes
+capri pants
+cardigan
+cardigan coat
+cardigan sweater
+cardigan vest
+cashmere
+cashmere scarf
+cat suit
+chainmail
+cheerleader
+cheerleader outfit
+cheerleading uniform
+chemise
+cheongsam
+chest sarashi
+chesterfield coat
+chiffon gown dress
+china dress
+china dress (cheongsam/qipao)
+chinese clothes
+chinese dress
+choker
+classic dress
+cocktail dress
+cold shoulder dress
+cold shoulder top
+collared shirt
+color block dress
+compression shirt
+compression shorts
+corset
+corset dress
+cortavientos
+cosplay costume
+costume
+couture
+couture corset
+crop top
+crop top and denim shorts
+crop top and light gray pantyhose
+crop top, pantyhose, bondage
+crop top, underboob, exposed buttocks mini shorts leather pants
+cropped cardigan
+cropped jacket
+cropped leggings and oversized hoodie
+cropped pants
+cropped sweater
+cropped sweater and midi skirt
+cross-laced footwear
+cross-laced sandals
+crotch leather shorts
+crotchless bloomers
+crotchless buruma
+crotchless leotard
+crotchless panties
+crotchless pants
+crotchless pantyhose
+crotchless swimsuit
+crown
+culotte dress
+culotte jumpsuit
+culottes and off-the-shoulder top
+culottes and sleeveless top
+culottes and tucked-in t-shirt
+cupless bikini
+cupless bra
+cut-out dress/top
+cutoff jeans
+dance costume
+dance tights
+dark blue sparkling glitzy gown
+denim jacket
+denim jacket and leggings
+denim overalls and striped shirt
+denim shorts
+denim shorts and graphic t-shirt
+denim skirt and tank top
+denim vest
+designer wear
+detached sleeves
+dinner jacket
+diving suit
+dolman jacket
+dolman sleeve top
+dolphin shorts
+dress flower
+dress pants
+dress shirt
+dress with frills
+edwardian clothing
+elastic dress
+elbow gloves
+elegant dress
+elf tunic
+embellished dress
+embroidered
+emo clothing
+epaulettes
+evening dress
+evening gown
+evening wear
+fantasy costume
+fascinator
+fashion corset
+field jacket
+fingerless gloves
+fishnet stockings
+flak jacket
+flannel nightgown
+flannel shirt
+flare jeans
+fleece pullover
+fleece vest
+flip-flops
+floral maxi dress and sandals
+floral strap dress
+flower trim dress
+flutter sleeve dress
+flutter sleeve top
+folkloric dress
+football jersey
+footwear ribbon
+forehead protector
+formal attire
+formal dress
+formal evening dress
+formal uniform
+formal wear
+french maid
+frilled shirt
+fringe top
+fringed scarf
+frock coat
+frock dress
+full length gown
+garter belt
+garter straps
+gaucho pants
+gimp suit
+gladiator sandals
+glossy wetlook latex mini hot pants
+gold trim
+gothic clothing
+gothic lolita
+gown
+grunge clothing
+gym shorts
+gym uniform
+habesha kemis
+habit
+habit uniform
+hair ornament
+hair ribbon
+hakama pants
+hakama short skirt
+hakama skirt
+halloween costume
+halter dress
+halter dress and wedges
+halter neck dress
+halter top
+halter top and maxi skirt
+halterneck
+halterneck dress
+harem outfit
+harem pants
+harrington jacket
+haute coutur
+haute couture garments
+high-low dress
+high-low skirt
+high-neck top
+high-slit gown
+high-waist skirt
+high-waisted jeans
+high-waisted pants
+high-waisted pants and crop top
+high-waisted shorts
+high-waisted shorts and blouse
+high-waisted shorts and off-the-shoulder top
+high-waisted shorts and tank top
+highleg leotard
+highleg panties
+hipster outfit
+holy raiment
+hooded sweatshirt
+hoop skirt
+jumpsuit
+jumpsuit and flats
+jumpsuit and heels
+jumpsuits
+lace blouse
+lace dress
+lace dress and heels
+lace lingerie
+lace pleated dress
+lace top
+lace top and high-waisted pants
+lace trim
+lace-up boots
+lace-up heels
+latex corset
+layered kimono
+leaf bikini
+leather corset
+leather jacket
+leather jacket and leggings
+leather shorts
+lederhosen
+leggings with a tunic top
+legwear garter
+lehenga
+leotard
+letter jacket
+letterman jacket
+lingerie
+little black dress
+long pencil skirt
+long skirt
+long sleeve crop top
+long sleeve dress
+long sleeve gown
+long sleeve see-through glittery sparkle shiny sequin bodycon mini dress
+long sleeve shirt
+long sleeve top
+long sleeve turtleneck crop top
+long underwear
+low-rise pants
+low-waisted pants
+low-waisted shorts
+lowleg bikini
+lowleg pants
+lowleg shorts
+lowleg skirt
+luxury clothing
+luxury dress
+luxury fabrics
+luxury fashion
+magic robe
+magicpunk
+maid
+maid headdress
+maid uniform
+mandarin collar shirt
+manteau
+mary janes
+maxi dress
+maxi dress and denim jacket
+maxi dress and denim shirt
+maxi dress and wedges
+maxi skirt
+maxi skirt and blouse
+maxi skirt and crop top
+maxi skirt and tank top
+medieval clothing
+mermaid dress
+mermaid gown
+micro bikini
+micro shorts
+micro skirt
+midi dress
+midi dress and ankle boots
+midi dress and ankle strap heels
+midi dress and flats
+midi dress and pumps
+midi skirt
+midi skirt and blouse
+midriff sarashi
+miko
+miko uniform
+military jacket
+mini dress
+mini dress and ankle boots
+mini hot jeans
+mini hot pants
+mini skirt
+mini skirt and off-the-shoulder top
+mini top clothes, sling dress, high heels
+miniskirt
+mittens
+mock turtleneck top
+mother of the bride dress
+night gown
+nightdress
+nightgown
+nightgown with robe
+nightshirt and leggings
+nightwear
+nippleless clothes
+off shoulder dress
+off shoulder dress, red high heels, elegant, glamour
+off-shoulder shirt
+off-shoulder top
+off-the-shoulder dress
+off-the-shoulder dress and sandals
+off-the-shoulder sweater
+off-the-shoulder top
+off-the-shoulder top and skinny jeans
+off-the-shoulder top/dress
+one shoulder dress
+one-piece swimsuit
+one-shoulder dress
+one-shoulder top
+onesie or footed pajamas
+overall
+overall skirt
+overalls and t-shirt
+overbust corset
+pajama pants and oversized t-shirt
+paladin armor
+palazzo pants
+palazzo pants and crop top
+palazzo pants and silk blouse
+pants rolled up
+pantyhose
+parachute pants
+party dress
+pea coat
+pelvic curtain
+pencil skirt
+pencil skirt and blazer
+pencil skirt and silk blouse
+peplum dress
+peplum top
+plaid shirt and denim shorts
+plaid skirt
+plastic-boned corset
+playboy bunny
+playboy bunny leotard
+pleated midi skirt and sweater
+pleated skirt
+pleated skirt and tucked-in blouse
+plug suit
+plunging neckline dress
+plunging neckline dress/top
+police uniform
+poodle skirt
+poofy pants
+prom dress
+pullover
+pullover sweater
+purple mesh gown
+qipao
+quilted coat
+quilted jacket
+raglan shirt
+raglan sleeves
+renaissance clothing
+revealing clothes
+revealing intricate __colors__ ribbon
+reverse bikini armor
+reverse bunnysuit
+ribbed sweater
+ribbon trim
+ripped jeans
+ripped jeans and crop top
+ripped jeans and leather jacket
+robe coat
+rockabilly clothing
+romper and sandals
+round neck sweater
+round neck top
+ruffle sleeve dress
+ruffle sleeve top
+ruffle top
+ruffled dress and heels
+runway fashion
+sack dress
+sailor dress
+satin chemise
+satin cloth
+satin corset
+satin slip dress
+satin slip skirt
+school uniform
+see-through dress
+see-through lingerie
+see-through sheer short
+see-through shiny sequin dress
+see-through top
+sequin dress
+sequin dress/top
+sequin top
+sexy erotic below crotchless underwear
+sexy lingerie
+sexy see-through sheer bodycon, {sexy mini hot pants|glossy wetlook latex mini hot pants}
+shalwar kameez
+shawl
+sheath dress
+sheath dress and pumps
+sheer blouse
+sheer bodycon
+sheer dress
+shift dress
+shirt
+shirt dress
+shirt with frills
+shirtdress
+short jumpsuit
+short kimono
+short shorts
+short skirt
+short skirt and a long jacket
+short sleeve dress
+short sleeve tight underboob crop top shirt, {sexy mini hot pants|glossy wetlook latex mini hot pants}
+short sleeve top
+short sleeves
+short socks
+short-sleeve shirt
+shorts
+shorts and blouse
+shorts under skirt
+shoulder cape
+shoulder sash
+side-tie bikini bottom
+silk camisole
+silk corset
+silk dress
+silk robe
+silver trim
+skater clothing
+skater dress
+skater skirt and crop top
+skinny jeans
+skinny jeans and blouse
+skinny jeans and button-down shirt
+skinny jeans and cardigan
+skirt
+skirt suit
+sleep shirt
+sleep shorts and tank top
+sleepwear
+sleeveless
+sleeveless dress
+sleeveless jacket
+sleeveless shirt
+sleeveless top
+sleeveless top and wide-leg pants
+sleeveless turtleneck
+slingshot swimsuit
+slip dress
+slippers
+slipstream
+slit skirt
+smoked/layered dress
+space suit
+spacesuit
+spaghetti strap dress
+spaghetti strap top
+sports bikini
+sports bra
+sports team uniform
+steel-boned corset
+stockings
+strapless dress
+strapless leotard
+strapless top
+straw cape
+straw cape (mino)
+streetwear
+string bikini
+striped dress and sneakers
+striped shirt
+striped shirt and denim shorts
+stud earrings
+suit
+suit jacket
+sundress and sandals
+sundress dress
+superhero costume
+survival suit
+suspender skirt
+suspenders
+sweat shorts
+sweater and pencil skirt
+sweater coat
+sweater dress
+sweater vest
+swim briefs
+swim briefs (speedo)
+swimsuit
+swimwear
+swing coat
+t-shirt
+t-shirt and cargo pants
+t-shirt dress and sneakers
+tank top
+tank top and denim skirt
+tank top, buttless hot pants
+tassel
+taut shirt
+theatre costume
+thighband pantyhose
+thighhighs
+thighlet
+thong
+thong bikini
+tiara
+tie clip
+tie neck dress
+tight black swimsuit with cameltoe, hyper detail crotch
+tightlacing corset
+tights
+toe socks
+toggle coat
+top helmet
+torn clothes
+traditional irish dress
+transparent raincoat
+trumpet dress
+tube socks
+tulip skirt
+tulle skirt
+tunic dress
+tunic top
+turtleneck
+turtleneck {sheer|sleeveless} dress
+turtleneck {sheer|sleeveless} sweater
+turtleneck and leather pants
+turtleneck and wide-leg pants
+turtleneck crop top
+turtleneck shirt
+turtleneck sweater
+turtleneck top
+tutu dress
+two-piece dress
+underboob shirt
+underboob string bikini
+underboob vest
+underbust
+underbust corset
+underclothes
+underpants
+undershirt
+underwear
+urban clothing
+v-neck sweater
+v-neck top
+veil
+velvet dress
+venus bikini
+vest
+victorian clothing
+victorian dress
+vietnamese dress
+vintage clothing
+waitress dress
+warrior dress
+wedding dress
+wedding gown
+western clothes
+western wear
+wet suit
+white silk shirt
+white tie
+white top, purple miniskirt, slender, fit, cleavage, thighhighs,
+wide leg pants
+wide-leg jumpsuit and clutch
+wide-leg jumpsuit and sandals
+wide-leg pants and crop top
+wide-leg pants and off-the-shoulder top
+wrap around dress
+wrap dress
+wrap dress and sandals
+wrap skirt
+wrap skirt and tank top
+wrap top
+wrist scrunchie
+yoga pants
+yoga shorts
+zip-up sweater
+zipper open crotch leather shorts

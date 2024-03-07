@@ -1,0 +1,72 @@
+almond color
+ashen color
+baby blue color
+beige color
+bisque color
+blush color
+bone color
+camel color
+caramel color
+champagne color
+charcoal color
+chocolate color
+clay color
+cloud color
+coral color
+cream color
+dove color
+dusty rose color
+ecru color
+eggshell color
+fawn color
+fog color
+frost color
+gainsboro color
+gentle blue color
+gray color
+greige color
+heather color
+honey color
+ivory color
+jade color
+khaki color
+lavender color
+lemon color
+lilac color
+linen color
+mauve color
+mink color
+mint color
+mushroom color
+oatmeal color
+old rose color
+opal color
+pale pink color
+peach color
+pearl color
+periwinkle color
+powder blue color
+pumpkin color
+putty color
+rose color
+sage color
+salmon color
+sand color
+seashell color
+sepia color
+silver color
+sky blue color
+slate color
+smoke color
+soft pink color
+taupe color
+teal color
+terracotta color
+thistle color
+tiffany blue color
+titanium color
+vanilla color
+watermelon color
+wheat color
+whisper color
+white color

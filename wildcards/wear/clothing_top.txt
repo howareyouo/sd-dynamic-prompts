@@ -1,0 +1,105 @@
+bandeau
+bandeau top
+bikini top
+blazer
+blouse
+bodysuit
+mini jacket
+bralette
+bustier
+bustier top
+button-up
+button-up shirt
+button-up tunic
+camisole
+cape
+cape blazer
+cardigan
+cardigan vest
+coat
+cold-shoulder top
+collared shirt
+compression shirt
+corset
+corset top
+cowl neck sweater
+criss-cross halter
+crop top
+cropped blazer
+cropped jacket
+cropped jacket (bolero)
+denim jacket
+dress
+dress shirt
+frilled shirt
+graphic t-shirt
+halter top
+henley
+high-neck blouse
+hoodie
+knit top
+lace blouse
+lace top
+leather jacket
+long coat
+off-shoulder blouse
+off-shoulder shirt
+off-the-shoulder top
+one-shoulder blouse
+one-shoulder top
+overcoat
+peacoat
+peasant top
+peplum jacket
+peplum top
+peter pan collar shirt
+polo shirt
+poncho
+pullover
+raglan sleeves
+raincoat
+rashguard
+ribbed sweater
+ruffle top
+sash
+sheer blouse
+sheer top
+shirt
+shoulder sash
+shrug
+silk top
+sleeveless blazer
+sleeveless blouse
+sleeveless shirt
+sleeveless trench coat
+sleeveless turtleneck
+stole
+strapless top
+stringer
+striped shirt
+suit
+suit jacket
+sukajan
+surcoat
+sweater dress
+sweater vest
+sweatshirt
+t-shirt
+tabard
+tailcoat
+tank top
+tankini top
+tie-neck blouse
+transparent raincoat
+trench coat
+tube top
+tunic
+tunic blouse
+tunic top
+turtleneck
+underbust
+vest
+waistcoat
+winter coat
+wrap blouse
+wrap top

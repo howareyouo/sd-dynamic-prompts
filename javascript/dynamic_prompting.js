@@ -148,7 +148,7 @@ class SDDP_UI {
     }
     // eslint-disable-next-line guard-for-in,no-restricted-syntax
     for (const elemId in SDDP_HELP_TEXTS) {
-      const elem = $id(elemId);
+      const elem = _(elemId);
       if (elem) {
         elem.setAttribute("title", SDDP_HELP_TEXTS[elemId]);
       } else {
@@ -251,17 +251,27 @@ class SDDP_UI {
     if (!this.wildcardsLoaded) {
       this.requestWildcardTree();
       this.wildcardsLoaded = true;
+      let textarea = $("#sddp-wildcard-file-name textarea")
+      textarea.disabled = ''
+      textarea.readOnly = 1
+      textarea.on("click", e => {
+        if (!textarea.value) return
+        navigator.clipboard.writeText(textarea.value)
+        textarea.setSelectionRange(0, -1)
+        notice({
+          body: `Wildcards copied:\n${textarea.value}`,
+          time: 3
+      })
+      })
     }
     if (!this.messageReadTimer) {
       this.messageReadTimer = setInterval(this.doReadMessage.bind(this), 120);
     }
     if (!this.searchKeyConfigured) {
-      gradioApp()
-        .querySelector("#sddp-wildcard-search textarea")
-        ?.addEventListener("input", (event) => {
-          this.treeFilter = event.target.value?.trim() || null;
-          this.setupTree();
-        });
+      $("#sddp-wildcard-search textarea")?.on("input", e => {
+        this.treeFilter = e.target.value.trim()
+        this.setupTree();
+      });
       this.searchKeyConfigured = true;
     }
   }
@@ -314,10 +324,8 @@ window.SDDP = SDDP;
   // Work around a bug in get_uiCurrentTabContent() and nested tabs
   // (can be replaced with get_uiCurrentTabContent() if
   // https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/10863 is merged)
-  const currentVisibleTopLevelTab = $(
-    '#tabs > .tabitem[id^=tab_]:not([style*="display: none"])',
-  );
+  const currentVisibleTopLevelTab = $('#tabs > .tabitem[id^=tab_]:not([style*="display: none"])')
   if (currentVisibleTopLevelTab?.id === "tab_sddp-wildcard-manager") {
-    SDDP.onWildcardManagerTabActivate();
+    SDDP.onWildcardManagerTabActivate()
   }
 });

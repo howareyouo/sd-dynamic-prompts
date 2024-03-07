@@ -1,0 +1,36 @@
+palegoldenrod color 
+khaki color 
+lemonchiffon color 
+palegreenyellow color 
+palecowhide color 
+palebeeswax color 
+pastel yellow color 
+light flax color 
+blond color 
+dirty blonde color 
+cornsilk color 
+cream color 
+light ivory color 
+pale primrose color 
+lightest tint color 
+flavescent color 
+isabelline color 
+jasper color 
+khaki color 
+light ecru color 
+light gold color 
+light ochre color 
+light wheat color 
+pale jonquil color 
+pale lemon color 
+pale ochre color 
+pale yellow color 
+pastel yellow color 
+pearl color 
+platinum color 
+sand color 
+sandy brown color 
+straw color 
+wheat color 
+yellow white color 
+yellowish white color

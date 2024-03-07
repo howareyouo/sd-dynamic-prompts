@@ -1,0 +1,16 @@
+balancing 
+crawling 
+jumping 
+running 
+walking 
+wallwalking 
+fighting stance 
+full scorpion 
+reclining 
+squatting 
+stretching 
+superhero landing 
+upside-down 
+handstand 
+yoga 
+scorpion pose 

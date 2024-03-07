@@ -1,0 +1,30 @@
+Politician
+Party leader
+Civil servant
+Police officer
+Diplomat
+Soldier
+Political officer
+Sniper
+Demolition expert
+Mercenary
+Bodyguard
+Assassin
+Spy
+Agent
+Commander
+Lawyer
+Terrorist
+Private enforcer
+Revolutionary
+Military officer (General/Marshal)
+Samurai
+Ninja
+Hitman
+Archer/Sharpshooter
+Strategist
+Admiral
+Swordsman/Sword saint
+Warrior
+Knight
+Counselor

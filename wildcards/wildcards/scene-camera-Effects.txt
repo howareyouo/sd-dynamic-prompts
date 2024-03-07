@@ -1,0 +1,20 @@
+blurry
+lens flare
+backlighting
+sparkle
+depth of field
+jpeg artifacts
+foreshortening
+chromatic aberration
+bokeh
+motion blur
+silhouette
+speed lines
+film grain
+diffraction spikes
+dithering
+vignetting
+optical illusion
+cinematic lighting
+glowing light
+god rays

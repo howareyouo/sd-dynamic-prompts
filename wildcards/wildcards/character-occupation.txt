@@ -1,0 +1,125 @@
+Scientist
+Engineer
+Programmer
+Professor
+Archaeologist
+Alchemist
+Inventor
+Athlete
+Coach
+Martial artist
+Mahjong player
+Chess player
+Racing girl/Racer
+Esports player
+Professional gamer
+Shinto shrine maiden/Shaman
+Saint
+Priest/Nun
+Monk/Nun
+Taoist priest/Taoist nun
+Priest
+Clergyman
+Religious leader
+Follower
+Druid
+Yin-Yang master
+Firefighter
+Postman
+Philanthropist
+Sanitation worker
+Politician
+Party leader
+Civil servant
+Police officer
+Diplomat
+Soldier
+Political officer
+Sniper
+Demolition expert
+Mercenary
+Bodyguard
+Assassin
+Spy
+Agent
+Commander
+Lawyer
+Terrorist
+Private enforcer
+Revolutionary
+Military officer (General/Marshal)
+Samurai
+Ninja
+Hitman
+Archer/Sharpshooter
+Strategist
+Admiral
+Swordsman/Sword saint
+Warrior
+Knight
+Counselor
+Assistant
+Hacker
+Detective
+Architect
+Animal caretaker
+Farmer/Agriculturist
+Blue-collar worker
+Hunter
+Bounty hunter
+Thief/Bandit/Phantom thief/Pirate
+Con artist
+Receptionist
+Administrator/Apartment manager/Dormitory manager/System administrator
+Body double
+Gatekeeper
+Supervisor
+Corpse remover
+Wizard
+Bandit
+Scholar
+Civil servant
+Eunuch
+Butcher
+Executioner
+Judge
+Mortician
+Diviner/Feng shui master
+Sage
+Guardian
+Wet nurse
+Worker
+Lumberjack
+Miner
+Artisan
+Craftsman
+Blacksmith
+Artificer
+Doctor
+Plague doctor
+Pharmacist
+Nurse
+System
+Mage/Wizard/Elementalist/Necromancer/Summoner
+Magical girl/Witch/Magic boy
+Familiar
+Hero/Superhero
+Anti-hero/Super anti-hero
+Super villain/Super antagonist
+Kamen Rider
+Cultivator/Immortal cultivator
+Dual Cultivation of Martial Arts and Magic
+Robot pilot
+Demon hunter/Exorcist/Monster hunter
+Paladin/Dark knight/Death knight/Dragon rider
+Super soldier
+Air pirate
+Driver
+Train attendant
+Captain
+Sailor
+Pilot
+Elevator girl
+Train attendant
+Air hostess
+Astronaut

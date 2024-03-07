@@ -126,13 +126,13 @@ def on_ui_tabs():
                 gr.Textbox(
                     "",
                     elem_id=make_element_id("wildcard-file-editor"),
-                    lines=10,
+                    lines=20,
+                    scale=1,
                     interactive=True,
                     label="File editor",
                 )
                 save_button = gr.Button(
                     "Save wildcards",
-                    scale=1,
                     elem_id=make_element_id("wildcard-save-button"),
                 )
 

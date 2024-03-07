@@ -1,0 +1,1 @@
+__color/color__ __wear/dress_type__, __wear/dress_prints__
