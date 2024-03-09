@@ -314,18 +314,13 @@ class SDDP_UI {
 }
 
 const SDDP = new SDDP_UI();
-window.SDDP = SDDP;
 
-(
-  window.onAfterUiUpdate || // sd-webui 1.3.0+
-  window.onUiUpdate
-)(() => {
-  SDDP.configureHelpTexts();
+onAfterUiUpdate(() => {
+  SDDP.configureHelpTexts()
   // Work around a bug in get_uiCurrentTabContent() and nested tabs
   // (can be replaced with get_uiCurrentTabContent() if
   // https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/10863 is merged)
-  const currentVisibleTopLevelTab = $('#tabs > .tabitem[id^=tab_]:not([style*="display: none"])')
-  if (currentVisibleTopLevelTab?.id === "tab_sddp-wildcard-manager") {
+  if (get_uiCurrentTabContent()?.id === "tab_sddp-wildcard-manager") {
     SDDP.onWildcardManagerTabActivate()
   }
-});
+})
