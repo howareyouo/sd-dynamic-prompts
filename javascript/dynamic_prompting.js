@@ -160,9 +160,7 @@ class SDDP_UI {
   }
 
   getInboxMessageText() {
-    return $(
-      "#sddp-wildcard-s2c-message-textbox textarea",
-    )?.value;
+    return $("#sddp-wildcard-s2c-message-textbox textarea")?.value;
   }
 
   formatPayload(payload) {
@@ -170,12 +168,8 @@ class SDDP_UI {
   }
 
   sendAction(payload) {
-    const outbox = $(
-      "#sddp-wildcard-c2s-message-textbox textarea",
-    );
-    outbox.value = this.formatPayload(payload);
-    // See https://github.com/AUTOMATIC1111/stable-diffusion-webui/commit/38b7186e6e3a4dffc93225308b822f0dae43a47d
-    window.updateInput?.(outbox);
+    const outbox = $("#sddp-wildcard-c2s-message-textbox textarea");
+    window.updateInput(outbox, this.formatPayload(payload))
     $("#sddp-wildcard-c2s-action-button").click();
   }
 
@@ -196,6 +190,8 @@ class SDDP_UI {
       this.collectionCount = message.collection_count ?? 0;
       this.setupTree();
     } else if (action === "load file" && success) {
+      this.loadFileIntoEditor(message);
+    } else if (action === "delete wildcard" && success) {
       this.loadFileIntoEditor(message);
     } else {
       console.warn("SDDP: Unknown message", message);
@@ -233,20 +229,16 @@ class SDDP_UI {
   }
 
   loadFileIntoEditor(message) {
-    const editor = $(
-      "#sddp-wildcard-file-editor textarea",
-    );
+    const editor = $("#sddp-wildcard-file-editor textarea");
     const name = $("#sddp-wildcard-file-name textarea");
-    const saveButton = $("#sddp-wildcard-save-button");
     const { contents, wrapped_name: wrappedName, can_edit: canEdit } = message;
-    editor.value = contents;
-    name.value = wrappedName;
-    editor.readOnly = !canEdit;
-    saveButton.disabled = !canEdit;
 
-    // See https://github.com/AUTOMATIC1111/stable-diffusion-webui/commit/38b7186e6e3a4dffc93225308b822f0dae43a47d
-    window.updateInput?.(editor);
-    window.updateInput?.(name);
+    $("#sddp-wildcard-save-button").disabled = !canEdit
+    $("#sddp-wildcard-delete-button").disabled = !canEdit
+    editor.readOnly = !canEdit
+
+    window.updateInput(editor, contents)
+    window.updateInput(name, wrappedName)
   }
 
   onWildcardManagerTabActivate() {
@@ -263,7 +255,7 @@ class SDDP_UI {
         notice({
           body: `Wildcards copied:\n${textarea.value}`,
           time: 3
-      })
+        })
       })
     }
     if (!this.messageReadTimer) {
@@ -278,9 +270,7 @@ class SDDP_UI {
         () => (this.collectionCount > 5000 ? 500 : 50),
         this,
       );
-      gradioApp()
-        .querySelector("#sddp-wildcard-search textarea")
-        ?.addEventListener("input", debouncedSearch);
+      $("#sddp-wildcard-search textarea")?.on("input", debouncedSearch);
       this.searchKeyConfigured = true;
     }
   }
@@ -293,13 +283,19 @@ class SDDP_UI {
 
   onSaveFileClick() {
     const json = JSON.parse(this.getInboxMessageText());
-    const contents = $(
-      "#sddp-wildcard-file-editor textarea",
-    ).value;
+    const contents = $("#sddp-wildcard-file-editor textarea").value;
     return this.formatPayload({
       action: "save wildcard",
       wildcard: json,
       contents,
+    });
+  }
+
+  onDeleteFileClick() {
+    const json = JSON.parse(this.getInboxMessageText());
+    return this.formatPayload({
+      action: "delete wildcard",
+      wildcard: json
     });
   }
 

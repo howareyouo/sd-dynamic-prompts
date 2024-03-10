@@ -99,8 +99,8 @@ def on_ui_tabs():
                 gr.Textbox(
                     "",
                     elem_id=elem_id("wildcard-file-name"),
-                    interactive=False,
                     label="Wildcards file",
+                    interactive=False
                 )
                 gr.Textbox(
                     "",
@@ -109,10 +109,9 @@ def on_ui_tabs():
                     interactive=True,
                     label="File editor",
                 )
-                save_button = gr.Button(
-                    "Save wildcards",
-                    elem_id=elem_id("wildcard-save-button"),
-                )
+                with gr.Row():
+                    save_button = gr.Button("Save wildcards", elem_id=elem_id("wildcard-save-button"))
+                    delete_button = gr.Button("Delete wildcards", elem_id=elem_id("wildcard-delete-button"))
 
         # Hidden scratch textboxes and button for communication with JS bits.
         client_to_server_msg_txt = gr.Textbox(
@@ -158,6 +157,18 @@ def on_ui_tabs():
             outputs=[server_to_client_msg_txt],
         )
 
+        delete_button.click(
+            delete_file_callback,
+            _js="SDDP.onDeleteFileClick",
+            inputs=[client_to_server_msg_txt],
+            outputs=[server_to_client_msg_txt],
+        ).then(
+            fn=refresh_wildcards_callback,
+            inputs=[],
+            outputs=[server_to_client_msg_txt],
+            # _js="SDDP.requestWildcardTree"
+        )
+
         collection_copy_btn.click(
             copy_collection_callback,
             inputs=[overwrite_checkbox, collection_dropdown],
@@ -168,14 +179,12 @@ def on_ui_tabs():
 
 
 def create_payload(*, action: str, success: bool, **rest) -> str:
-    return json.dumps(
-        {
-            "id": random.randint(0, 1000000),
-            "action": action,
-            "success": success,
-            **rest,
-        },
-    )
+    return json.dumps({
+        "id": random.randint(0, 1000000),
+        "action": action,
+        "success": success,
+        **rest,
+    })
 
 
 def copy_collection_callback(overwrite_checkbox, collection):
@@ -273,3 +282,17 @@ def save_file_callback(event_str: str):
         return handle_load_wildcard({"name": event["wildcard"]["name"]})
     except Exception as e:
         logger.exception(e)
+
+def delete_file_callback(event_str: str):
+    event = json.loads(event_str)
+    wf = wildcard_manager.get_file(event["wildcard"]["name"])
+    if isinstance(wf, WildcardTextFile):
+        wf._path.unlink(True)
+    wildcard_manager.clear_cache()
+    return create_payload(
+            action="delete wildcard",
+            success=True,
+            can_edit=False,
+            contents="File deleted.",
+            name=event["wildcard"]["name"]
+        )
