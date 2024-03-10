@@ -30,3 +30,29 @@ Urban Landscape
 Water Reflection
 Waterfalls
 Wildlife Sanctuary
+church
+classroom
+school
+living room
+bed room
+kitchen
+restaurant
+forest
+river
+lake
+mountain
+hell
+underworld
+city
+field
+farm
+office
+dark tunnel
+desert
+fantasy
+mushroom forest
+rose garden
+flower garden
+orchard
+space ship
+courtyard

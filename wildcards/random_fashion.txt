@@ -1,1 +1,1 @@
-masterpiece, ultra realistic, extremely detailed CG unity 8k wallpaper, best quality, ({summer day|autumn day|winter day|spring day}), lady, necklace, eardrop, __*/city__, (__*/colors__ __*/mixwear__) , __*/haircolor__ hair __*/hairstyle__
+masterpiece, ultra realistic, extremely detailed CG unity 8k wallpaper, best quality, ({summer|autumn|winter|spring} day), lady, necklace, eardrop, __location/*__, (__color/*__ __clothes/*__), __hairstyles/*__
