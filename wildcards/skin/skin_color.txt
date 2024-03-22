@@ -24,3 +24,10 @@ pink
 salmon
 ruby
 wine
+Dark skin
+Pale skin
+Tan
+Tanlines
+Sun tattoo
+Colored skin
+Shiny skin
