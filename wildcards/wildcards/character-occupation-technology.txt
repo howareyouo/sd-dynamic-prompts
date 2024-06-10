@@ -1,7 +1,0 @@
-Scientist
-Engineer
-Programmer
-Professor
-Archaeologist
-Alchemist
-Inventor

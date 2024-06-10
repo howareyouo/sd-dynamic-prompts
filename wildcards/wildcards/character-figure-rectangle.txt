@@ -1,6 +1,0 @@
-Athletic rectangle body
-Boyish rectangle body
-Curvy rectangle body
-Petite rectangle body
-Tall rectangle body
-Short rectangle body

@@ -1,4 +1,0 @@
-asteroid
-moon
-planet
-space station

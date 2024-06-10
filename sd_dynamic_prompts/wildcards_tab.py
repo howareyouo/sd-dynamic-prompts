@@ -78,7 +78,7 @@ def on_ui_tabs():
 
     with gr.Blocks() as wildcards_tab:
         with gr.Row():
-            with gr.Column():
+            with gr.Column(scale=2):
                 gr.Textbox(label="Search wildcard", placeholder="Wildcard names...", elem_id=elem_id("wildcard-search"))
                 gr.HTML("Loading...", elem_id=elem_id("wildcard-tree"))
                 with gr.Row():
@@ -95,7 +95,7 @@ def on_ui_tabs():
                     overwrite_checkbox = gr.Checkbox(label="Overwrite existing", value=False,)
                 with gr.Accordion("Help", open=False):
                     gr.HTML(help_html)
-            with gr.Column():
+            with gr.Column(scale=3):
                 gr.Textbox(
                     "",
                     elem_id=elem_id("wildcard-file-name"),

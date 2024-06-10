@@ -1,7 +1,0 @@
-Worker
-Lumberjack
-Miner
-Artisan
-Craftsman
-Blacksmith
-Artificer

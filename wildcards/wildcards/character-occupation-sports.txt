@@ -1,8 +1,0 @@
-Athlete
-Coach
-Martial artist
-Mahjong player
-Chess player
-Racing girl/Racer
-Esports player
-Professional gamer
