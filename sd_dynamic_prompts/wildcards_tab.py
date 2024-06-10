@@ -83,7 +83,7 @@ def on_ui_tabs():
                 gr.HTML("Loading...", elem_id=elem_id("wildcard-tree"))
                 with gr.Row():
                     refresh_wildcards_btn = gr.Button("Refresh wildcards", elem_id=elem_id("wildcard-load-tree-button"))
-                    delete_tree_btn = gr.Button("Delete all wildcards")
+                    delete_tree_btn = gr.Button("Delete all wildcards", variant='stop')
                 with gr.Row():
                     collection_dropdown = gr.Dropdown(
                         choices=sorted(get_collection_dirs()),
@@ -111,7 +111,7 @@ def on_ui_tabs():
                 )
                 with gr.Row():
                     save_button = gr.Button("Save wildcards", elem_id=elem_id("wildcard-save-button"))
-                    delete_button = gr.Button("Delete wildcards", elem_id=elem_id("wildcard-delete-button"))
+                    delete_button = gr.Button("Delete wildcards", variant='stop', elem_id=elem_id("wildcard-delete-button"))
 
         # Hidden scratch textboxes and button for communication with JS bits.
         client_to_server_msg_txt = gr.Textbox(
