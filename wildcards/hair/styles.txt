@@ -5,6 +5,7 @@ auburn braids
 auburn buzzcut
 auburn dreadlocks
 auburn undercut
+bangs
 beach waves
 beehive hairdo
 black braids
@@ -15,10 +16,9 @@ blond braids
 blond buzzcut
 blond dreadlocks
 blond undercut
+blowout
+blunt bangs
 blunt haircut
-blunt bangs
-bangs
-blunt bangs
 bob
 bob cut
 bob hair
@@ -26,31 +26,40 @@ bold
 bouffant
 bow-shaped hair
 bowl cut
+box braids
+boy cut
 braid
 braided bangs
 braided bun
+braided hairstyle
 braided updo
 braids
 brown braids
 brown buzzcut
 brown dreadlocks
 brown undercut
+bun
 buzz cut
 chignon hair
+chin-length bob
 chonmage
+choppy bob
 choppy layers
 cone hair bun
 cornrows
 crew cut
 crimped hair
+cropped pixie
 crown braid
 curly hair
 curtain bangs
 double bun
 doughnut hair bun
 dreadlocks
+drill hair
 dutch braid
 faux hawk
+fauxhawk
 feathered haircut
 fishtail braid
 flattop
@@ -58,24 +67,31 @@ flipped hair
 folded ponytail
 french bob
 french braid
+french twist
 fringe
+frohawk
 front braid
 front ponytail
+graduated bob
 gray braids
 gray buzzcut
 gray dreadlocks
 gray undercut
 hair bun
 hair buns
+hair flaps
 hair rings
 half updo
 half-up half-down
+half-up half-down hairstyle
 half-up, half-down hairstyle
 heart hair bun
 high ponytail
 hime cut
 huge afro
+layered hair
 layered haircut
+lob
 lob (long bob)
 long auburn hair
 long black hair
@@ -90,6 +106,7 @@ long gray hair
 long hair
 long hair with bangs
 long layers
+long pixie
 long wavy auburn hair
 long wavy black hair
 long wavy blond hair
@@ -102,7 +119,9 @@ low-tied long hair
 medium hair
 messy bun
 messy hair
+micro bangs
 mizura
+modern shag
 mohawk
 mullet
 multi-tied hair
@@ -110,16 +129,26 @@ multiple braids
 nihongami
 okappa
 one side up
+pageboy
+perm
 pigtails
+pixie bob
 pixie cut
+pixie cut with bangs
+pointy hair
 pompadour
 ponytail
 ponytail with bangs
+prom hairstyle
 quad braids
 quad tails
 quiff
 quin tails
+razor cut
+ringlets
+shag
 shag haircut
+shaggy hair
 short auburn hair
 short black hair
 short blond hair
@@ -135,9 +164,15 @@ side ponytail
 side-swept bangs
 single braid
 single hair bun
+sleek hair
 sleek ponytail
+spiked hair
+spiky hair
+spiky pixie
 split ponytail
+stacked bob
 straight hair
+textured hair
 tight ponytail
 top knot
 topknot
@@ -145,54 +180,18 @@ tri braids
 tri tails
 triple bun
 twin braids
+twin drills
 twin tails
 twintails
+twist-out
 two side up
 undercut
+undercut pixie
 uneven twintails
 updo
+updo hairstyle
 waterfall braid
 wavy hair
-wispy bangs
-blowout
-box braids
-braided hairstyle
-bun
-choppy bob
-drill hair
-fauxhawk
-french twist
-frohawk
-graduated bob
-hair flaps
-half-up half-down hairstyle
-layered hair
-lob
-perm
-pixie bob
-pixie cut with bangs
-pointy hair
-prom hairstyle
-razor cut
-ringlets
-shag
-shaggy hair
-sleek hair
-spiked hair
-spiky hair
-textured hair
-twin drills
-twist-out
-updo hairstyle
 wedge cut
 wet-look hairstyle
-boy cut
-chin-length bob
-cropped pixie
-long pixie
-micro bangs
-modern shag
-pageboy
-spiky pixie
-stacked bob
-undercut pixie
+wispy bangs
