@@ -1,15 +1,15 @@
-__hair/hair_color_multiple__
-(dark blue hair:1.79586)
-(pale pink hair:1.3401)
-(pastel rainbow hair:1.27628)
-(pink blue hair:1.4071), split-color hair
-(shimmer hair:1.21551), (iridescent silver hair:1.05), (hair \(houseki no kuni\):1.15763)
-(shimmer hair:1.21551), glowing hair, (iridescent silver hair:1.05), (hair \(houseki no kuni\):1.15763)
-(silver blue hair:1.3401)
-(two-tone hair:1.79586)
-(white hair:1.79586)
-(yellow hair:1.05)
-(yellow hair:1.62889)
+__hair/color_multi__
+(dark blue hair)
+(pale pink hair)
+(pastel rainbow hair)
+(pink blue hair), split-color hair
+(shimmer hair), (iridescent silver hair), (hair houseki no kuni)
+(shimmer hair), glowing hair, (iridescent silver hair), (hair houseki no kuni)
+(silver blue hair)
+(two-tone hair)
+(white hair)
+(yellow hair)
+(yellow hair)
 alternate hair color
 aqua hair
 ash blonde hair
@@ -82,7 +82,6 @@ electric blue hair
 turquoise hair
 teal hair
 mint green hair
-lime green hair
 canary yellow hair
 sunset orange hair
 fiery red hair

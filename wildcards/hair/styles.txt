@@ -1,5 +1,4 @@
 a-line haircut
-afro
 asymmetrical haircut
 auburn braids
 auburn buzzcut
@@ -88,7 +87,6 @@ half-up, half-down hairstyle
 heart hair bun
 high ponytail
 hime cut
-huge afro
 layered hair
 layered haircut
 lob
